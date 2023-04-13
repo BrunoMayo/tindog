@@ -1,0 +1,183 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title, #cta {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#title .container-fluid {
+    padding: 3% 15%;
+}
+
+#title h1, #cta h3, #pricing h2 {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#title img {
+    transform: rotate(25deg);
+    width: 300px;
+    position: absolute;
+}
+
+/* NavBar */
+
+#title nav{
+    padding-bottom: 4.5rem;
+}
+
+#title .navbar-brand {
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#title .nav-item{
+    padding: 0 18px;
+}
+
+#title .nav-item .nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+
+/* Download Button*/
+
+#title .downaload-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.features-style{
+    text-align: center;
+    padding: 4.5%;
+}
+
+
+.features-style i {
+    color:  #fd6a88;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+}
+
+.features-style h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.features-style i:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials Style */
+
+#testimonials{
+    background-color: #fd6a88;
+    text-align: center;
+    color: white;
+}
+
+#testimonials h2{
+    font-weight: 700;
+}
+
+#testimonials img{
+    border-radius: 50%;
+    width: 10%;
+    margin: 20px;
+}
+
+#testimonials .carousel-item, #pricing {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #fd6a88;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#press .press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+
+#pricing p {
+    color: grey;
+    margin-bottom: 15%;
+}
+
+#pricing .card-header h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#pricing .card-border{
+    padding: 5%;
+}
+
+#pricing .card-border p {
+    margin: 5%;
+}
+
+#pricing .card-border button{
+    width: 90%;
+}
+
+
+@media screen and (max-width: 1170px){
+    #title {
+        text-align: center;
+    }
+    
+    #title img {
+        transform: rotate(0);
+        position: static;
+        margin-left: 0;
+    }   
+}
+
+/*Call to action*/
+
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#cta h3{
+    margin-bottom: 10%;
+}
+
+/* Footer */
+
+footer{
+    background-color: white;
+    padding: 5% 15%;
+    text-align: center;
+}
+
+footer div i{
+    margin: 10px;
+}
+
+footer p{
+    color: grey;
+    margin-top: 2%;
+}
